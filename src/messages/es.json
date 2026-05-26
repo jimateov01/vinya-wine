@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "eyebrow": "Turismo del vino en Catalunya",
+    "title": "Descubre el alma\ndel vino catalán",
+    "subtitle": "Más de 100 bodegas te abren las puertas. Catas exclusivas, vendimias y rutas entre los paisajes más singulares de Catalunya.",
+    "cta": "Explorar experiencias"
+  },
+  "regions": {
+    "heading": "Nuestras regiones",
+    "penedes": { "name": "Penedès", "tagline": "El corazón del cava y los grandes blancos catalanes" },
+    "priorat": { "name": "Priorat", "tagline": "Terroir volcánico y tintos de autor con alma propia" },
+    "emporda": { "name": "Empordà", "tagline": "Viñas junto al mar, entre brisa mediterránea y tramontana" },
+    "alella": { "name": "Alella", "tagline": "La DO más pequeña, a las puertas de Barcelona" }
+  },
+  "experiences": {
+    "heading": "Experiencias destacadas",
+    "subheading": "Catas, visitas y vivencias diseñadas por las mejores bodegas",
+    "book": "Reservar plaza",
+    "hours": "{n} horas",
+    "from": "desde",
+    "items": [
+      {
+        "title": "Cata magistral en el Priorat",
+        "winery": "Celler Mas Doix",
+        "hours": "3",
+        "type": "Cata guiada",
+        "price": "55"
+      },
+      {
+        "title": "Vendimia y pisado de uva",
+        "winery": "Bodegas Torres – Penedès",
+        "hours": "4",
+        "type": "Experiencia vivencial",
+        "price": "38"
+      },
+      {
+        "title": "Maridaje entre viñas",
+        "winery": "Alta Alella",
+        "hours": "2",
+        "type": "Cata maridaje",
+        "price": "42"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "¿Cómo funciona?",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Elige tu experiencia",
+        "desc": "Filtra por región, tipo de vino o fecha. Más de 300 experiencias únicas te esperan en toda Catalunya."
+      },
+      {
+        "number": "02",
+        "title": "Reserva en segundos",
+        "desc": "Pago seguro online. Confirmación inmediata y todos los detalles de acceso directamente en tu correo."
+      },
+      {
+        "number": "03",
+        "title": "Vive el momento",
+        "desc": "La bodega te recibe. Descorcha, aprende y llévate los mejores vinos directamente a casa."
+      }
+    ]
+  },
+  "wineryForm": {
+    "heading": "Lista tu bodega, gratis",
+    "pitch": "Únete a más de 100 bodegas que ya reciben visitantes a través de Vinya.wine. Sin cuota de entrada, sin permanencia. Solo pagas el 12% cuando haces una venta.",
+    "note": "Publicación gratuita · 12% de comisión por reserva",
+    "name": "Tu nombre",
+    "namePlaceholder": "María García",
+    "wineryName": "Nombre de la bodega",
+    "wineryPlaceholder": "Celler Exemple",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "hola@tubodega.com",
+    "region": "Región",
+    "regionPlaceholder": "Selecciona una región",
+    "submit": "Empezar gratis",
+    "success": "¡Genial! Nos ponemos en contacto contigo en menos de 48 horas."
+  },
+  "footer": {
+    "tagline": "El marketplace del turismo del vino en Catalunya",
+    "experiences": "Experiencias",
+    "regions": "Regiones",
+    "forWineries": "Para bodegas",
+    "about": "Sobre nosotros",
+    "copyright": "© 2026 Vinya.wine. Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "eyebrow": "Wine Tourism in Catalunya",
+    "title": "Discover the soul\nof Catalan wine",
+    "subtitle": "Over 100 wineries open their doors to you. Exclusive tastings, harvests and routes through the most singular landscapes of Catalunya.",
+    "cta": "Explore experiences"
+  },
+  "regions": {
+    "heading": "Our regions",
+    "penedes": { "name": "Penedès", "tagline": "The heartland of cava and great Catalan whites" },
+    "priorat": { "name": "Priorat", "tagline": "Volcanic terroir and distinctive author reds" },
+    "emporda": { "name": "Empordà", "tagline": "Vineyards by the sea, between Mediterranean breeze and tramontane" },
+    "alella": { "name": "Alella", "tagline": "The smallest DO, right at Barcelona's doorstep" }
+  },
+  "experiences": {
+    "heading": "Featured experiences",
+    "subheading": "Tastings, visits and experiences designed by the finest wineries",
+    "book": "Book now",
+    "hours": "{n} hours",
+    "from": "from",
+    "items": [
+      {
+        "title": "Masterclass tasting in Priorat",
+        "winery": "Celler Mas Doix",
+        "hours": "3",
+        "type": "Guided tasting",
+        "price": "55"
+      },
+      {
+        "title": "Harvest & grape stomping",
+        "winery": "Bodegas Torres – Penedès",
+        "hours": "4",
+        "type": "Hands-on experience",
+        "price": "38"
+      },
+      {
+        "title": "Food & wine pairing among vines",
+        "winery": "Alta Alella",
+        "hours": "2",
+        "type": "Pairing session",
+        "price": "42"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How it works",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Choose your experience",
+        "desc": "Filter by region, wine style or date. More than 300 unique experiences are waiting for you across Catalunya."
+      },
+      {
+        "number": "02",
+        "title": "Book in seconds",
+        "desc": "Secure online payment. Instant confirmation and all the details to reach the winery delivered straight to your inbox."
+      },
+      {
+        "number": "03",
+        "title": "Live the moment",
+        "desc": "The winery welcomes you. Uncork, learn and take home the finest wines directly."
+      }
+    ]
+  },
+  "wineryForm": {
+    "heading": "List your winery, for free",
+    "pitch": "Join over 100 wineries already receiving visitors through Vinya.wine. No setup fee, no lock-in. You only pay 12% when you make a sale.",
+    "note": "Free to list · 12% commission per booking",
+    "name": "Your name",
+    "namePlaceholder": "Maria García",
+    "wineryName": "Winery name",
+    "wineryPlaceholder": "Example Winery",
+    "email": "Email address",
+    "emailPlaceholder": "hello@yourwinery.com",
+    "region": "Region",
+    "regionPlaceholder": "Select a region",
+    "submit": "Get started for free",
+    "success": "Great! We'll be in touch within 48 hours."
+  },
+  "footer": {
+    "tagline": "The wine tourism marketplace for Catalunya",
+    "experiences": "Experiences",
+    "regions": "Regions",
+    "forWineries": "For wineries",
+    "about": "About us",
+    "copyright": "© 2026 Vinya.wine. All rights reserved."
+  }
+}

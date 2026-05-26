@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "eyebrow": "Turisme del vi a Catalunya",
+    "title": "Descobreix l'ànima\ndel vi català",
+    "subtitle": "Més de 100 cellers t'obren les portes. Tasts exclusius, veremes i rutes pels paisatges més singulars de Catalunya.",
+    "cta": "Explorar experiències"
+  },
+  "regions": {
+    "heading": "Les nostres regions",
+    "penedes": { "name": "Penedès", "tagline": "El cor del cava i els grans blancs catalans" },
+    "priorat": { "name": "Priorat", "tagline": "Terroir volcànic i negres d'autor amb ànima pròpia" },
+    "emporda": { "name": "Empordà", "tagline": "Vinyes vora el mar, entre brisa mediterrània i tramuntana" },
+    "alella": { "name": "Alella", "tagline": "La DO més petita, a les portes de Barcelona" }
+  },
+  "experiences": {
+    "heading": "Experiències destacades",
+    "subheading": "Tasts, visites i vivències dissenyades pels millors cellers",
+    "book": "Reservar plaça",
+    "hours": "{n} hores",
+    "from": "des de",
+    "items": [
+      {
+        "title": "Tast magistral al Priorat",
+        "winery": "Celler Mas Doix",
+        "hours": "3",
+        "type": "Tast guiat",
+        "price": "55"
+      },
+      {
+        "title": "Verema i trepitjada de raïm",
+        "winery": "Bodegas Torres – Penedès",
+        "hours": "4",
+        "type": "Experiència vivencial",
+        "price": "38"
+      },
+      {
+        "title": "Maridatge entre vinyes",
+        "winery": "Alta Alella",
+        "hours": "2",
+        "type": "Tast maridatge",
+        "price": "42"
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "Com funciona?",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Tria la teva experiència",
+        "desc": "Filtra per regió, tipus de vi o data. Més de 300 experiències úniques t'esperen arreu de Catalunya."
+      },
+      {
+        "number": "02",
+        "title": "Reserva en segons",
+        "desc": "Pagament segur en línia. Confirmació immediata i tots els detalls d'accés directament al teu correu."
+      },
+      {
+        "number": "03",
+        "title": "Viu el moment",
+        "desc": "El celler et rep. Descorxa, aprèn i endú't els millors vins directament a casa."
+      }
+    ]
+  },
+  "wineryForm": {
+    "heading": "Publica el teu celler, gratis",
+    "pitch": "Uneix-te a més de 100 cellers que ja reben visitants a través de Vinya.wine. Sense quota d'entrada, sense permanència. Només pagues el 12% quan fas una venda.",
+    "note": "Publicació gratuïta · 12% de comissió per reserva",
+    "name": "El teu nom",
+    "namePlaceholder": "Maria Garcia",
+    "wineryName": "Nom del celler",
+    "wineryPlaceholder": "Celler Exemple",
+    "email": "Correu electrònic",
+    "emailPlaceholder": "hola@elteuceller.cat",
+    "region": "Regió",
+    "regionPlaceholder": "Selecciona una regió",
+    "submit": "Començar gratis",
+    "success": "Excel·lent! Ens posem en contacte en menys de 48 hores."
+  },
+  "footer": {
+    "tagline": "El marketplace del turisme del vi a Catalunya",
+    "experiences": "Experiències",
+    "regions": "Regions",
+    "forWineries": "Per a cellers",
+    "about": "Sobre nosaltres",
+    "copyright": "© 2026 Vinya.wine. Tots els drets reservats."
+  }
+}
