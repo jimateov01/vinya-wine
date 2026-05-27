@@ -211,6 +211,11 @@
       "hours": "{n} h"
     }
   },
+  "roleSwitcher": {
+    "admin":   "Admin Panel",
+    "bodega":  "Winery View",
+    "viajero": "Traveler View"
+  },
   "dashboardViajero": {
     "title": "My Bookings",
     "empty": "You don't have any bookings yet.",

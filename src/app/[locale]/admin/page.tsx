@@ -4,6 +4,7 @@ import { createClient as createServerClient } from '@/lib/supabase/server'
 import { createAdminClient } from '@/lib/supabase/admin'
 import type { AdminWinery, AdminBooking, AdminInquiry } from '@/types/database'
 import AdminClient from './AdminClient'
+import RoleSwitcher from '@/components/RoleSwitcher'
 
 export default async function AdminPage() {
   const serverClient = await createServerClient()
@@ -44,7 +45,7 @@ export default async function AdminPage() {
     <div className="min-h-screen bg-[#FAF8F5]">
       <header className="bg-[#2C4A3E] text-white px-6 py-4 flex items-center justify-between">
         <span className="font-[family-name:var(--font-playfair)] italic text-lg">Vinya.wine</span>
-        <span className="text-sm opacity-70">{t('title')}</span>
+        <RoleSwitcher active="admin" />
       </header>
 
       <main className="max-w-6xl mx-auto px-6 py-10">

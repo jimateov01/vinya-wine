@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
 import { createClient } from '@/lib/supabase/server'
 import type { BookingWithDetails } from '@/types/database'
+import RoleSwitcher from '@/components/RoleSwitcher'
 
 const STATUS_COLORS: Record<string, string> = {
   pending:   'bg-amber-100 text-amber-800',
@@ -20,7 +21,7 @@ export default async function ViajeroPage() {
 
   const { data: profile } = await supabase
     .from('profiles')
-    .select('name, email')
+    .select('name, email, role')
     .eq('id', user.id)
     .single()
 
@@ -40,7 +41,10 @@ export default async function ViajeroPage() {
         <a href="/" className="font-[family-name:var(--font-playfair)] italic text-lg">
           Vinya.wine
         </a>
-        <span className="text-sm opacity-70">{profile?.name ?? profile?.email}</span>
+        <div className="flex items-center gap-4">
+          {profile?.role === 'admin' && <RoleSwitcher active="viajero" />}
+          <span className="text-sm opacity-70">{profile?.name ?? profile?.email}</span>
+        </div>
       </header>
 
       <main className="max-w-3xl mx-auto px-6 py-10">

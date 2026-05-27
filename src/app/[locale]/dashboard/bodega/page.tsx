@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server'
 import { createClient } from '@/lib/supabase/server'
 import type { WineryWithExperiences } from '@/types/database'
 import BodegaClient from './BodegaClient'
+import RoleSwitcher from '@/components/RoleSwitcher'
 
 export default async function BodegaPage() {
   const supabase = await createClient()
@@ -29,7 +30,7 @@ export default async function BodegaPage() {
 
   const t = await getTranslations('dashboardBodega')
 
-  if (profile.role !== 'winery') {
+  if (profile.role !== 'winery' && profile.role !== 'admin') {
     return (
       <div className="min-h-screen bg-[#FAF8F5] flex items-center justify-center px-4">
         <p className="text-stone-600 text-center max-w-sm">{t('noAccess')}</p>
@@ -43,7 +44,10 @@ export default async function BodegaPage() {
         <a href="/" className="font-[family-name:var(--font-playfair)] italic text-lg">
           Vinya.wine
         </a>
-        <span className="text-sm opacity-70">{profile.name ?? profile.email}</span>
+        <div className="flex items-center gap-4">
+          <RoleSwitcher active="bodega" />
+          <span className="text-sm opacity-70">{profile.name ?? profile.email}</span>
+        </div>
       </header>
 
       <main className="max-w-4xl mx-auto px-6 py-10">

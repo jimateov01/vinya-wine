@@ -211,6 +211,11 @@
       "hours": "{n} h"
     }
   },
+  "roleSwitcher": {
+    "admin":   "Tauler Admin",
+    "bodega":  "Vista Celler",
+    "viajero": "Vista Viatger"
+  },
   "dashboardViajero": {
     "title": "Les meves Reserves",
     "empty": "Encara no tens cap reserva.",

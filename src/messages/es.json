@@ -211,6 +211,11 @@
       "hours": "{n} h"
     }
   },
+  "roleSwitcher": {
+    "admin":   "Panel Admin",
+    "bodega":  "Vista Bodega",
+    "viajero": "Vista Viajero"
+  },
   "dashboardViajero": {
     "title": "Mis Reservas",
     "empty": "Aún no tienes reservas.",
