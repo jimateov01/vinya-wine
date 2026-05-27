@@ -125,5 +125,102 @@
     "forWineries": "Para bodegas",
     "about": "Sobre nosotros",
     "copyright": "© 2026 Vinya.wine. Todos los derechos reservados."
+  },
+  "auth": {
+    "login": {
+      "title": "Accede a tu cuenta",
+      "subtitle": "Introduce tu email y te enviaremos un enlace de acceso.",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "tu@email.com",
+      "submit": "Enviar enlace",
+      "checkEmail": "Revisa tu correo",
+      "checkEmailDesc": "Te hemos enviado un enlace de acceso. Puede tardar unos segundos en llegar.",
+      "error": "Ha ocurrido un error. Por favor, inténtalo de nuevo."
+    }
+  },
+  "admin": {
+    "title": "Panel de administración",
+    "unauthorized": "No tienes permisos para acceder a esta página.",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "markRead": "Marcar como leída",
+    "tabs": {
+      "wineries": "Bodegas",
+      "bookings": "Reservas",
+      "inquiries": "Consultas"
+    },
+    "columns": {
+      "name": "Nombre",
+      "region": "Región",
+      "owner": "Propietario",
+      "status": "Estado",
+      "date": "Fecha",
+      "guests": "Personas",
+      "experience": "Experiencia",
+      "winery": "Bodega",
+      "traveler": "Viajero",
+      "email": "Email",
+      "message": "Mensaje",
+      "actions": "Acciones"
+    },
+    "status": {
+      "pending": "Pendiente",
+      "approved": "Aprobada",
+      "rejected": "Rechazada",
+      "confirmed": "Confirmada",
+      "cancelled": "Cancelada",
+      "new": "Nueva",
+      "read": "Leída",
+      "active": "Activa",
+      "inactive": "Inactiva"
+    }
+  },
+  "dashboardBodega": {
+    "title": "Mi Bodega",
+    "statusLabel": "Estado de tu bodega:",
+    "noAccess": "Esta área es exclusiva para propietarios de bodegas. Contacta con el administrador.",
+    "noWinery": "No tienes una bodega asociada a tu cuenta. Contacta con el administrador.",
+    "statusValues": {
+      "pending": "Pendiente de aprobación",
+      "approved": "Aprobada",
+      "rejected": "Rechazada"
+    },
+    "profile": {
+      "heading": "Perfil de la bodega",
+      "edit": "Editar",
+      "name": "Nombre",
+      "region": "Región",
+      "description": "Descripción",
+      "save": "Guardar cambios"
+    },
+    "experiences": {
+      "heading": "Experiencias",
+      "add": "Añadir experiencia",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "deleteConfirm": "¿Eliminar esta experiencia?",
+      "empty": "Aún no has añadido experiencias.",
+      "titleField": "Título",
+      "type": "Tipo",
+      "duration": "Duración (h)",
+      "price": "Precio (€)",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "hours": "{n} h"
+    }
+  },
+  "dashboardViajero": {
+    "title": "Mis Reservas",
+    "empty": "Aún no tienes reservas.",
+    "browseLink": "Explorar experiencias",
+    "date": "Fecha:",
+    "guests": "{n} persona(s)",
+    "status": {
+      "pending": "Pendiente de confirmación",
+      "confirmed": "Confirmada",
+      "cancelled": "Cancelada"
+    }
   }
 }

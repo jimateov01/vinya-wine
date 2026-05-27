@@ -125,5 +125,102 @@
     "forWineries": "For wineries",
     "about": "About us",
     "copyright": "© 2026 Vinya.wine. All rights reserved."
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in to your account",
+      "subtitle": "Enter your email and we'll send you a magic link.",
+      "email": "Email address",
+      "emailPlaceholder": "you@email.com",
+      "submit": "Send link",
+      "checkEmail": "Check your email",
+      "checkEmailDesc": "We've sent you a sign-in link. It should arrive in a few seconds.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "admin": {
+    "title": "Admin dashboard",
+    "unauthorized": "You don't have permission to access this page.",
+    "approve": "Approve",
+    "reject": "Reject",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "markRead": "Mark as read",
+    "tabs": {
+      "wineries": "Wineries",
+      "bookings": "Bookings",
+      "inquiries": "Inquiries"
+    },
+    "columns": {
+      "name": "Name",
+      "region": "Region",
+      "owner": "Owner",
+      "status": "Status",
+      "date": "Date",
+      "guests": "Guests",
+      "experience": "Experience",
+      "winery": "Winery",
+      "traveler": "Traveler",
+      "email": "Email",
+      "message": "Message",
+      "actions": "Actions"
+    },
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "confirmed": "Confirmed",
+      "cancelled": "Cancelled",
+      "new": "New",
+      "read": "Read",
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "dashboardBodega": {
+    "title": "My Winery",
+    "statusLabel": "Winery status:",
+    "noAccess": "This area is for winery owners only. Please contact the administrator.",
+    "noWinery": "No winery is linked to your account. Please contact the administrator.",
+    "statusValues": {
+      "pending": "Pending approval",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "profile": {
+      "heading": "Winery profile",
+      "edit": "Edit",
+      "name": "Name",
+      "region": "Region",
+      "description": "Description",
+      "save": "Save changes"
+    },
+    "experiences": {
+      "heading": "Experiences",
+      "add": "Add experience",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleteConfirm": "Delete this experience?",
+      "empty": "You haven't added any experiences yet.",
+      "titleField": "Title",
+      "type": "Type",
+      "duration": "Duration (h)",
+      "price": "Price (€)",
+      "save": "Save",
+      "cancel": "Cancel",
+      "hours": "{n} h"
+    }
+  },
+  "dashboardViajero": {
+    "title": "My Bookings",
+    "empty": "You don't have any bookings yet.",
+    "browseLink": "Browse experiences",
+    "date": "Date:",
+    "guests": "{n} guest(s)",
+    "status": {
+      "pending": "Awaiting confirmation",
+      "confirmed": "Confirmed",
+      "cancelled": "Cancelled"
+    }
   }
 }

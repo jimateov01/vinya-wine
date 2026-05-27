@@ -125,5 +125,102 @@
     "forWineries": "Per a cellers",
     "about": "Sobre nosaltres",
     "copyright": "© 2026 Vinya.wine. Tots els drets reservats."
+  },
+  "auth": {
+    "login": {
+      "title": "Accedeix al teu compte",
+      "subtitle": "Introdueix el teu correu i t'enviarem un enllaç d'accés.",
+      "email": "Correu electrònic",
+      "emailPlaceholder": "tu@correu.com",
+      "submit": "Enviar enllaç",
+      "checkEmail": "Comprova el teu correu",
+      "checkEmailDesc": "T'hem enviat un enllaç d'accés. Pot trigar uns segons a arribar.",
+      "error": "S'ha produït un error. Si us plau, torna-ho a intentar."
+    }
+  },
+  "admin": {
+    "title": "Tauler d'administració",
+    "unauthorized": "No tens permisos per accedir a aquesta pàgina.",
+    "approve": "Aprovar",
+    "reject": "Rebutjar",
+    "confirm": "Confirmar",
+    "cancel": "Cancel·lar",
+    "markRead": "Marcar com a llegida",
+    "tabs": {
+      "wineries": "Cellers",
+      "bookings": "Reserves",
+      "inquiries": "Consultes"
+    },
+    "columns": {
+      "name": "Nom",
+      "region": "Regió",
+      "owner": "Propietari",
+      "status": "Estat",
+      "date": "Data",
+      "guests": "Persones",
+      "experience": "Experiència",
+      "winery": "Celler",
+      "traveler": "Viatger",
+      "email": "Correu",
+      "message": "Missatge",
+      "actions": "Accions"
+    },
+    "status": {
+      "pending": "Pendent",
+      "approved": "Aprovada",
+      "rejected": "Rebutjada",
+      "confirmed": "Confirmada",
+      "cancelled": "Cancel·lada",
+      "new": "Nova",
+      "read": "Llegida",
+      "active": "Activa",
+      "inactive": "Inactiva"
+    }
+  },
+  "dashboardBodega": {
+    "title": "El meu Celler",
+    "statusLabel": "Estat del celler:",
+    "noAccess": "Aquesta àrea és exclusiva per a propietaris de cellers. Contacta amb l'administrador.",
+    "noWinery": "No tens cap celler associat al teu compte. Contacta amb l'administrador.",
+    "statusValues": {
+      "pending": "Pendent d'aprovació",
+      "approved": "Aprovat",
+      "rejected": "Rebutjat"
+    },
+    "profile": {
+      "heading": "Perfil del celler",
+      "edit": "Editar",
+      "name": "Nom",
+      "region": "Regió",
+      "description": "Descripció",
+      "save": "Desar canvis"
+    },
+    "experiences": {
+      "heading": "Experiències",
+      "add": "Afegir experiència",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "deleteConfirm": "Eliminar aquesta experiència?",
+      "empty": "Encara no has afegit cap experiència.",
+      "titleField": "Títol",
+      "type": "Tipus",
+      "duration": "Durada (h)",
+      "price": "Preu (€)",
+      "save": "Desar",
+      "cancel": "Cancel·lar",
+      "hours": "{n} h"
+    }
+  },
+  "dashboardViajero": {
+    "title": "Les meves Reserves",
+    "empty": "Encara no tens cap reserva.",
+    "browseLink": "Explorar experiències",
+    "date": "Data:",
+    "guests": "{n} persona(es)",
+    "status": {
+      "pending": "Pendent de confirmació",
+      "confirmed": "Confirmada",
+      "cancelled": "Cancel·lada"
+    }
   }
 }
