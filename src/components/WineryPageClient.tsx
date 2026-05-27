@@ -1,11 +1,12 @@
 'use client'
 
-import { useState, useRef } from 'react'
+import { useState, useRef, useTransition } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { Link } from '@/i18n/navigation'
 import type { Winery, Locale, Experience } from '@/types/winery'
+import { createBooking } from '@/app/[locale]/bodega/[slug]/actions'
 
 function StarRating({ rating }: { rating: number }) {
   return (
@@ -58,10 +59,33 @@ function BookingForm({ experience, winery, locale, onClose }: BookingFormProps) 
   const t = useTranslations('wineryPage')
   const tTypes = useTranslations('experienceTypes')
   const [submitted, setSubmitted] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+  const [isPending, startTransition] = useTransition()
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
-    setSubmitted(true)
+    setError(null)
+    const form = e.currentTarget
+    const data = new FormData(form)
+
+    startTransition(async () => {
+      const result = await createBooking({
+        travelerName: data.get('name') as string,
+        travelerEmail: data.get('email') as string,
+        experienceId: experience.id,
+        experienceName: experience.title[locale],
+        wineryName: winery.name,
+        date: data.get('date') as string,
+        guests: Number(data.get('guests')),
+        pricePerPerson: experience.price,
+      })
+
+      if (result.success) {
+        setSubmitted(true)
+      } else {
+        setError(result.error ?? 'Error desconocido')
+      }
+    })
   }
 
   return (
@@ -105,6 +129,7 @@ function BookingForm({ experience, winery, locale, onClose }: BookingFormProps) 
                 </label>
                 <input
                   required
+                  name="name"
                   type="text"
                   className="w-full border border-deep-green/20 px-4 py-3 text-deep-green text-sm focus:outline-none focus:border-terracotta bg-off-white"
                 />
@@ -115,6 +140,7 @@ function BookingForm({ experience, winery, locale, onClose }: BookingFormProps) 
                 </label>
                 <input
                   required
+                  name="email"
                   type="email"
                   className="w-full border border-deep-green/20 px-4 py-3 text-deep-green text-sm focus:outline-none focus:border-terracotta bg-off-white"
                 />
@@ -126,6 +152,7 @@ function BookingForm({ experience, winery, locale, onClose }: BookingFormProps) 
                   </label>
                   <input
                     required
+                    name="date"
                     type="date"
                     className="w-full border border-deep-green/20 px-4 py-3 text-deep-green text-sm focus:outline-none focus:border-terracotta bg-off-white"
                   />
@@ -136,6 +163,7 @@ function BookingForm({ experience, winery, locale, onClose }: BookingFormProps) 
                   </label>
                   <input
                     required
+                    name="guests"
                     type="number"
                     min={1}
                     max={20}
@@ -144,11 +172,17 @@ function BookingForm({ experience, winery, locale, onClose }: BookingFormProps) 
                   />
                 </div>
               </div>
+              {error && (
+                <p className="text-xs text-red-600 bg-red-50 px-4 py-3 border border-red-200">
+                  {error}
+                </p>
+              )}
               <button
                 type="submit"
-                className="bg-terracotta text-off-white text-xs uppercase tracking-[0.25em] py-4 hover:bg-terracotta/90 transition-colors mt-2"
+                disabled={isPending}
+                className="bg-terracotta text-off-white text-xs uppercase tracking-[0.25em] py-4 hover:bg-terracotta/90 transition-colors mt-2 disabled:opacity-60"
               >
-                {t('bookingSubmit')}
+                {isPending ? '…' : t('bookingSubmit')}
               </button>
             </form>
           )}
