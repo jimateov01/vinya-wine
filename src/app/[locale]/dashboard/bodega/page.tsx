@@ -45,7 +45,7 @@ export default async function BodegaPage() {
           Vinya.wine
         </a>
         <div className="flex items-center gap-4">
-          <RoleSwitcher active="bodega" />
+          {profile.role === 'admin' && <RoleSwitcher active="bodega" />}
           <span className="text-sm opacity-70">{profile.name ?? profile.email}</span>
         </div>
       </header>
