@@ -10,7 +10,8 @@
     "penedes": { "name": "Penedès", "tagline": "The heartland of cava and great Catalan whites" },
     "priorat": { "name": "Priorat", "tagline": "Volcanic terroir and distinctive author reds" },
     "emporda": { "name": "Empordà", "tagline": "Vineyards by the sea, between Mediterranean breeze and tramontane" },
-    "alella": { "name": "Alella", "tagline": "The smallest DO, right at Barcelona's doorstep" }
+    "alella": { "name": "Alella", "tagline": "The smallest DO, right at Barcelona's doorstep" },
+    "bages": { "name": "Bages", "tagline": "Inland vineyards at 450 metres, freshness and character" }
   },
   "experiences": {
     "heading": "Featured experiences",
@@ -76,6 +77,46 @@
     "regionPlaceholder": "Select a region",
     "submit": "Get started for free",
     "success": "Great! We'll be in touch within 48 hours."
+  },
+  "experiencesPage": {
+    "heading": "Experiences in Catalunya",
+    "subheading": "Discover over 300 unique experiences at the finest wineries",
+    "searchPlaceholder": "Search winery or experience…",
+    "allRegions": "All regions",
+    "allTypes": "All types",
+    "priceAll": "Any price",
+    "price0": "Up to €30",
+    "price30": "€30 – €60",
+    "price60": "Over €60",
+    "noResults": "No experiences match your search.",
+    "book": "Book now",
+    "from": "from",
+    "hours": "{n} h",
+    "viewWinery": "View winery"
+  },
+  "experienceTypes": {
+    "tasting": "Guided tasting",
+    "harvest": "Harvest",
+    "pairing": "Food pairing",
+    "tour": "Winery tour",
+    "workshop": "Workshop"
+  },
+  "wineryPage": {
+    "back": "Back to experiences",
+    "rating": "Rating",
+    "experiences": "Available experiences",
+    "gallery": "Gallery",
+    "book": "Book now",
+    "from": "from",
+    "hours": "{n} h",
+    "bookingTitle": "Request a booking",
+    "bookingName": "Your name",
+    "bookingEmail": "Email address",
+    "bookingDate": "Preferred date",
+    "bookingGuests": "Number of guests",
+    "bookingSubmit": "Send request",
+    "bookingSuccess": "Request sent! The winery will confirm within 48 hours.",
+    "bookingClose": "Close"
   },
   "footer": {
     "tagline": "The wine tourism marketplace for Catalunya",

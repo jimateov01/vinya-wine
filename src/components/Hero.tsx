@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import { Link } from '@/i18n/navigation'
 
 export function Hero() {
   const t = useTranslations('hero')
@@ -51,12 +52,12 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.36 }}
         >
-          <a
-            href="#experiences"
+          <Link
+            href="/experiences"
             className="inline-block bg-terracotta text-off-white px-12 py-4 text-xs uppercase tracking-[0.25em] font-medium hover:bg-terracotta/90 transition-colors"
           >
             {t('cta')}
-          </a>
+          </Link>
         </motion.div>
       </div>
 

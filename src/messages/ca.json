@@ -10,7 +10,8 @@
     "penedes": { "name": "Penedès", "tagline": "El cor del cava i els grans blancs catalans" },
     "priorat": { "name": "Priorat", "tagline": "Terroir volcànic i negres d'autor amb ànima pròpia" },
     "emporda": { "name": "Empordà", "tagline": "Vinyes vora el mar, entre brisa mediterrània i tramuntana" },
-    "alella": { "name": "Alella", "tagline": "La DO més petita, a les portes de Barcelona" }
+    "alella": { "name": "Alella", "tagline": "La DO més petita, a les portes de Barcelona" },
+    "bages": { "name": "Bages", "tagline": "Vinyes d'interior a 450 metres, frescor i caràcter propi" }
   },
   "experiences": {
     "heading": "Experiències destacades",
@@ -76,6 +77,46 @@
     "regionPlaceholder": "Selecciona una regió",
     "submit": "Començar gratis",
     "success": "Excel·lent! Ens posem en contacte en menys de 48 hores."
+  },
+  "experiencesPage": {
+    "heading": "Experiències a Catalunya",
+    "subheading": "Descobreix més de 300 experiències úniques als millors cellers",
+    "searchPlaceholder": "Cerca celler o experiència…",
+    "allRegions": "Totes les regions",
+    "allTypes": "Tots els tipus",
+    "priceAll": "Qualsevol preu",
+    "price0": "Fins a 30 €",
+    "price30": "30 € – 60 €",
+    "price60": "Més de 60 €",
+    "noResults": "No hi ha experiències que coincideixin amb la teva cerca.",
+    "book": "Reservar plaça",
+    "from": "des de",
+    "hours": "{n} h",
+    "viewWinery": "Veure celler"
+  },
+  "experienceTypes": {
+    "tasting": "Tast guiat",
+    "harvest": "Verema",
+    "pairing": "Maridatge",
+    "tour": "Visita celler",
+    "workshop": "Taller"
+  },
+  "wineryPage": {
+    "back": "Tornar a experiències",
+    "rating": "Valoració",
+    "experiences": "Experiències disponibles",
+    "gallery": "Galeria",
+    "book": "Reservar plaça",
+    "from": "des de",
+    "hours": "{n} h",
+    "bookingTitle": "Sol·licitar reserva",
+    "bookingName": "El teu nom",
+    "bookingEmail": "Correu electrònic",
+    "bookingDate": "Data preferida",
+    "bookingGuests": "Nombre de persones",
+    "bookingSubmit": "Enviar sol·licitud",
+    "bookingSuccess": "Sol·licitud enviada! El celler et confirmarà en menys de 48 hores.",
+    "bookingClose": "Tancar"
   },
   "footer": {
     "tagline": "El marketplace del turisme del vi a Catalunya",

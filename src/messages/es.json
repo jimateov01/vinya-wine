@@ -10,7 +10,8 @@
     "penedes": { "name": "Penedès", "tagline": "El corazón del cava y los grandes blancos catalanes" },
     "priorat": { "name": "Priorat", "tagline": "Terroir volcánico y tintos de autor con alma propia" },
     "emporda": { "name": "Empordà", "tagline": "Viñas junto al mar, entre brisa mediterránea y tramontana" },
-    "alella": { "name": "Alella", "tagline": "La DO más pequeña, a las puertas de Barcelona" }
+    "alella": { "name": "Alella", "tagline": "La DO más pequeña, a las puertas de Barcelona" },
+    "bages": { "name": "Bages", "tagline": "Viñedos de interior a 450 metros, frescura y carácter propio" }
   },
   "experiences": {
     "heading": "Experiencias destacadas",
@@ -76,6 +77,46 @@
     "regionPlaceholder": "Selecciona una región",
     "submit": "Empezar gratis",
     "success": "¡Genial! Nos ponemos en contacto contigo en menos de 48 horas."
+  },
+  "experiencesPage": {
+    "heading": "Experiencias en Catalunya",
+    "subheading": "Descubre más de 300 experiencias únicas en las mejores bodegas",
+    "searchPlaceholder": "Buscar bodega o experiencia…",
+    "allRegions": "Todas las regiones",
+    "allTypes": "Todos los tipos",
+    "priceAll": "Cualquier precio",
+    "price0": "Hasta 30 €",
+    "price30": "30 € – 60 €",
+    "price60": "Más de 60 €",
+    "noResults": "No hay experiencias que coincidan con tu búsqueda.",
+    "book": "Reservar plaza",
+    "from": "desde",
+    "hours": "{n} h",
+    "viewWinery": "Ver bodega"
+  },
+  "experienceTypes": {
+    "tasting": "Cata guiada",
+    "harvest": "Vendimia",
+    "pairing": "Maridaje",
+    "tour": "Visita bodega",
+    "workshop": "Taller"
+  },
+  "wineryPage": {
+    "back": "Volver a experiencias",
+    "rating": "Valoración",
+    "experiences": "Experiencias disponibles",
+    "gallery": "Galería",
+    "book": "Reservar plaza",
+    "from": "desde",
+    "hours": "{n} h",
+    "bookingTitle": "Solicitar reserva",
+    "bookingName": "Tu nombre",
+    "bookingEmail": "Correo electrónico",
+    "bookingDate": "Fecha preferida",
+    "bookingGuests": "Número de personas",
+    "bookingSubmit": "Enviar solicitud",
+    "bookingSuccess": "¡Solicitud enviada! La bodega te confirmará en menos de 48 horas.",
+    "bookingClose": "Cerrar"
   },
   "footer": {
     "tagline": "El marketplace del turismo del vino en Catalunya",

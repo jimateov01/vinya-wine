@@ -22,9 +22,9 @@ export function Footer() {
           </div>
 
           <nav className="flex flex-col gap-4">
-            <a href="#experiences" className="text-off-white/60 hover:text-off-white text-sm transition-colors">
+            <Link href="/experiences" className="text-off-white/60 hover:text-off-white text-sm transition-colors">
               {t('experiences')}
-            </a>
+            </Link>
             <a href="#regions" className="text-off-white/60 hover:text-off-white text-sm transition-colors">
               {t('regions')}
             </a>
